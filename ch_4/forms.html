@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+<!-- Input  -->
+        <h1>Travel form for a trip</h1>
+        <form action="form.php">
+        <!-- Text  -->
+            <input type="text" placeholder="Enter your name here">
+            <br>
+            <hr>
+        <!-- Radio -->
+            <label for="sectionida">
+                <input type="radio" value="Section A" name="Section" id="sectionida"> Section A
+            </label>
+            <label for="sectionidb">
+                <input type="radio" value="Section B" name="Section" id="sectionidb"> Section B
+            </label>
+            <label for="sectionidc">
+                <input type="radio" value="Section C" name="Section" id="sectionidc" class="red blue"> Section C
+            </label>
+            <hr>
+            
+        <!-- Check box -->
+            <input type="checkbox" name="foodcanteen" id="foodcard" class= "red">
+            <label for="foodcard">Want Food Canteen Card?</label>
+            <hr>
+
+<!-- Text area --> 
+            <br>
+           
+            <textarea name="explain" id="explainid" cols="30" rows="10" placeholder="Enter why you want to join"></textarea>
+
+<!-- Select tag -->
+            <hr>
+            <!-- <br> -->
+            
+            <select name="car" id="selectcar"> 
+                <option value="No Car">Select your car</option>
+                <option value="Car1">Car1</option>
+                <option value="Car2">Car2</option>
+                <option value="Car3">Car3</option>
+                <option value="Car4">Car4</option>
+                <option value="Car5">Car5</option>
+            </select>
+            <label for="selectcar">Please select your car from the following</label>
+        </form>
+    </div>
+</body>
+
+</html>
